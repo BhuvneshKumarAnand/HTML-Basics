@@ -1,0 +1,32 @@
+#div1 {
+    height: 25vh;
+    width: 25vw;
+    background-color: blue;
+    /* border-style: solid;
+    border-color: rgb(90, 22, 22);
+    border-width: 10px; */
+    border-radius: 10px;
+    border: 10px solid rgb(106, 52, 52);
+    /* background-position: center; */
+}
+
+#div2 {
+    height: 50%;
+    width: 50%;
+    /* background-position: center; */
+    background-color: green;
+}
+
+#sample-para {
+    font-size: xx-large;
+    color: blue;
+    border-left: 10px solid red;
+    /* border-right: 10px solid red;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red; */
+    /* border-radius: 100px; */
+}
+
+div {
+    background-image: url("https://secure.gravatar.com/avatar/a07645826af48a15e1c6ce2869f2083b?s=49&d=identicon&r=g"), url("https://blog.codingninjas.in/wp-content/uploads/2017/01/cropped-Final_logo_switchtocode-01.png");
+}

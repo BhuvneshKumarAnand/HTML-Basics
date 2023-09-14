@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="Fname">First Name</label><br>
+            <input type="text" id="Fname" name="Fname" placeholder="Enter your first name" required>
+        </div><br>
+        <div>
+            <label for="Lname">Last Name</label><br>
+            <input type="text" id="Lname" name="Lname" placeholder="Enter your last name" required>
+        </div><br>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="abc@example.in" required>
+        </div><br>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        </div>
+        <br>
+        <div>
+            <label for="URL">Enter URL</label><br>
+            <input type="url" id="URL" name="URL" placeholder="Enter URL" required>
+        </div><br>
+        <div>
+            <label for="Rollnumber">Rollnumber</label><br>
+            <input type="number" name="Rollnumber" id="Rollnumber" placeholder="Enter your rollnumber" required>
+        </div><br>
+        <div>
+            >=<label for="Time">Enter current time</label><br>
+            <input type="time" name="Time" id="Time" placeholder="Enter current time">
+        </div><br>
+        <div>
+            <label for="Marks">Range of marks</label><br>
+            <input type="range" name="Marks" id="Marks" min="0" max="100" step="20">
+        </div><br>
+        <div>
+            <label for="country">Country</label><br>
+            <input type="country" name="country" id="country" value="India" placeholder="Enter your country name" disabled>
+        </div><br>
+
+        <div>
+            <label for="Button">Button</label>
+            <input type="button" name="Button">
+        </div><br>
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="checkbox" name="Gender">
+        </div><br>
+
+
+        <div>
+            <!-- <label for="submit">Submit</label> -->
+            <input type="submit" id="Submit">
+        </div>
+        <div>
+            <!-- <label for="Reset">Reset</label> -->
+            <input type="reset" name="Reset">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>

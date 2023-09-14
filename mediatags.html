@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Media Tags</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <!-- media tags  -->
+    <!-- 1. audio tag -->
+
+    <audio src="static/Alan_Walker_-_Faded.mp4" controls></audio>
+
+    <!-- in case browser is unable to play file in src format. 
+        Then, create multiple formats in separate source tag as mentioned below -->
+
+    <audio controls>
+        <source src="static/Alan_Walker_-_Faded.ogg" type="audio/ogg">
+        <source src="static/Alan_Walker_-_Faded.mp3" type="audio/mp3">
+        <source src="static/Alan_Walker_-_Faded.mp4" type="audio/mp4"><br><br>
+
+    </audio>/
+
+    <!-- video tag -->
+
+    <video src="static\Alan_Walker_-_Faded.mp4" height="50%" width="50%" controls></video>
+    <br><br><br>
+
+    <video height="50%" width="50%" controls>
+        <source src="static\Alan_Walker_-_Faded.mp4" type="video/mp4">
+        <!-- <source src="static\Alan_Walker_-_Faded.mp4" type="Alan_Walker_-_Faded.mp4">
+        <source src="static\Alan_Walker_-_Faded.mp4" type="Alan_Walker_-_Faded.mp4"> -->
+    </video><br><br>
+
+    <!-- Add youtube video -->
+
+    <video controls>
+        <source src="https://youtu.be/kGQAot7R9kw?si=mLvNq59auZcO135s" type="video/mp4">
+    </video><br><br>
+
+    <!-- figure tag -->
+    <figure>
+        <img src="static/logo_switchtocode.png">
+        <figcaption>Logo Image</figcaption>
+    </figure><br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kGQAot7R9kw?si=EfZYK70lkgHUUuPm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+        
+    </iframe>
+
+</body>
+
+</html>

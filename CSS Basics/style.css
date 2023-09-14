@@ -1,0 +1,23 @@
+p {
+    padding: 20px;
+    color: rgb(36, 35, 35);
+}
+
+h1 {
+    font-size: 40px;
+    color: darkslategrey;
+    /* text-transform: uppercase; */
+}
+
+
+/* h4 {
+    text-transform: uppercase;
+} */
+
+
+/* class selector  */
+
+.uppercase {
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
